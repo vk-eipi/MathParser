@@ -1,0 +1,38 @@
+changelog:
+	start work on multiplication
+	reorganized simplify based on root
+	fixed findParentOf
+	chain operations
+	cleaned unused code
+	
+	
+	Version 1.2:
+		BUGS FIXED
+			stack contains pointers, but they could reference deleted nodes
+			- remove rights after each right loop
+			currentRightNode now initialized for every right loop
+			used to only loop through right once
+		MODIFICATIONS
+			findParentOf, remove use pointer arguments
+			removed replace, init, setFirstChild, setRight
+			created replaceFirstChild, deleteFirstChild, insertRight
+	
+	Version 1.1:
+		fixed memory leak
+		appendChild, deleteChild methods
+		switched copy constructor / assignment operator to excluding rights
+		other small bugs
+		
+todo:
+	implement/integrate:
+		- replaceRight (attachRight?), deleteRight, (deleteAllRights?)
+	ensure no self-reference in methods
+	create operators SUM and PRODUCT
+		- expand SUMs / ADDITIONs within SUMS
+	build parser
+	
+done:
+	remove setFirstChild, setRight, replace
+	implement/integrate:
+		- replaceFirstChild, appendChild, deleteFirstChild, deleteChildren
+	

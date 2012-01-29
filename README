@@ -2,3 +2,10 @@ OUAC# 2012-156363
 
 This was my attempt at a symbolic algebra manipulator.
 
+Instructions:
+$ g++ algebraic.cpp expression.cpp operation.cpp -o algebraic
+$ ./algebraic 2>/dev/null # just standard output
+$ ./algebraic # debug mode
+
+Description:
+"During the spring of 2011, I attempted to write a program in C++ capable of simplifying algebraic expressions. It seemed like a well-defined, rigorous process to me and I knew that certain calculators, such as the TI-89, were already capable of doing so. I was successful in writing a program that could simplify sums of linear variables, but discontinued work after my attention switched to programming competitions instead. I worked with pointers, dynamic memory, object-oriented programming, and data types such as trees."

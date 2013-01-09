@@ -1,6 +1,4 @@
-OUAC# 2012-156363
-
-This was my attempt at a symbolic algebra manipulator.
+An attempt at a symbolic algebra manipulator.
 
 Instructions:
 $ g++ algebraic.cpp expression.cpp operation.cpp -o algebraic
